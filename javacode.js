@@ -1,3 +1,5 @@
+const callHistory=[];
+
 // function to get innerText value 
 
 function getInnerText(id) {
@@ -42,6 +44,33 @@ document.getElementById("national-call").addEventListener('click', function () {
 
 setInnerText2(totalCoin);
 
+const history ={
+    name:"National Emergency Number",
+    Number:999,
+    Date:new Date().toLocaleTimeString()
+}
+callHistory.push(history)
+
+
+
+const newHistory = document.getElementById("call-history");
+
+
+    const div = document.createElement("div")
+    div.innerHTML = `
+        <div class="flex justify-between mt-4 bg-[#FAFAFA] p-5 items-center rounded-xl">
+                <div>
+                    <h1 class="font-bold">${history.name}</h1>
+                    <p>${history.Number}</p>
+                </div>
+                <p>${history.Date}</p>
+              </div>
+    `
+    newHistory.appendChild(div)
+
+
+
+
 
 })
 //   <!-- Police --> 
@@ -68,6 +97,33 @@ document.getElementById("police-call").addEventListener('click', function () {
 
 setInnerText2(totalCoin);
 
+const history ={
+    name:"Police Helpline Service",
+    Number:999,
+    Date:new Date().toLocaleTimeString()
+}
+
+callHistory.push(history)
+
+
+
+const newHistory = document.getElementById("call-history");
+
+
+    const div = document.createElement("div")
+    div.innerHTML = `
+        <div class="flex justify-between mt-4 bg-[#FAFAFA] p-5 items-center rounded-xl">
+                <div>
+                    <h1 class="font-bold">${history.name}</h1>
+                    <p>${history.Number}</p>
+                </div>
+                <p>${history.Date}</p>
+              </div>
+    `
+    newHistory.appendChild(div)
+
+
+
 
 })
 
@@ -93,6 +149,30 @@ document.getElementById("fire-service-call").addEventListener('click', function 
     
 
 setInnerText2(totalCoin);
+
+const history ={
+    name:"Fire Service Number",
+    Number:999,
+    Date:new Date().toLocaleTimeString()
+}
+callHistory.push(history)
+
+
+
+const newHistory = document.getElementById("call-history");
+
+
+    const div = document.createElement("div")
+    div.innerHTML = `
+        <div class="flex justify-between mt-4 bg-[#FAFAFA] p-5 items-center rounded-xl">
+                <div>
+                    <h1 class="font-bold">${history.name}</h1>
+                    <p>${history.Number}</p>
+                </div>
+                <p>${history.Date}</p>
+              </div>
+    `
+    newHistory.appendChild(div)
 
 
 })
@@ -122,6 +202,30 @@ document.getElementById("ambulance-call").addEventListener('click', function () 
 
 setInnerText2(totalCoin);
 
+const history ={
+    name:"Ambulance Service",
+    Number: 1994999999,
+    Date:new Date().toLocaleTimeString()
+}
+callHistory.push(history)
+
+
+
+const newHistory = document.getElementById("call-history");
+
+
+    const div = document.createElement("div")
+    div.innerHTML = `
+        <div class="flex justify-between mt-4 bg-[#FAFAFA] p-5 items-center rounded-xl">
+                <div>
+                    <h1 class="font-bold">${history.name}</h1>
+                    <p>${history.Number}</p>
+                </div>
+                <p>${history.Date}</p>
+              </div>
+    `
+    newHistory.appendChild(div)
+
 
 })
 
@@ -148,6 +252,29 @@ document.getElementById("Women-call").addEventListener('click', function () {
 
 setInnerText2(totalCoin);
 
+const history ={
+    name:"Women & Child Helpline",
+    Number: 109,
+    Date:new Date().toLocaleTimeString()
+}
+callHistory.push(history)
+
+
+
+const newHistory = document.getElementById("call-history");
+
+
+    const div = document.createElement("div")
+    div.innerHTML = `
+        <div class="flex justify-between mt-4 bg-[#FAFAFA] p-5 items-center rounded-xl">
+                <div>
+                    <h1 class="font-bold">${history.name}</h1>
+                    <p>${history.Number}</p>
+                </div>
+                <p>${history.Date}</p>
+              </div>
+    `
+    newHistory.appendChild(div)
 
 })
 
@@ -174,6 +301,29 @@ document.getElementById("anti-call").addEventListener('click', function () {
 
 setInnerText2(totalCoin);
 
+const history ={
+    name:"Anti-Corruption Helpline",
+    Number: 106,
+    Date:new Date().toLocaleTimeString()
+}
+callHistory.push(history)
+
+
+
+const newHistory = document.getElementById("call-history");
+
+
+    const div = document.createElement("div")
+    div.innerHTML = `
+        <div class="flex justify-between mt-4 bg-[#FAFAFA] p-5 items-center rounded-xl">
+                <div>
+                    <h1 class="font-bold">${history.name}</h1>
+                    <p>${history.Number}</p>
+                </div>
+                <p>${history.Date}</p>
+              </div>
+    `
+    newHistory.appendChild(div)
 
 })
 
@@ -200,6 +350,29 @@ document.getElementById("electricity-call").addEventListener('click', function (
 
 setInnerText2(totalCoin);
 
+const history ={
+    name:"Electricity Helpline",
+    Number: 16216,
+    Date:new Date().toLocaleTimeString()
+}
+callHistory.push(history)
+
+
+
+const newHistory = document.getElementById("call-history");
+
+
+    const div = document.createElement("div")
+    div.innerHTML = `
+        <div class="flex justify-between mt-4 bg-[#FAFAFA] p-5 items-center rounded-xl">
+                <div>
+                    <h1 class="font-bold">${history.name}</h1>
+                    <p>${history.Number}</p>
+                </div>
+                <p>${history.Date}</p>
+              </div>
+    `
+    newHistory.appendChild(div)
 
 })
 
@@ -226,6 +399,29 @@ document.getElementById("brac-call").addEventListener('click', function () {
 
 setInnerText2(totalCoin);
 
+const history ={
+    name:"Brac Helpline",
+    Number: 16445,
+    Date:new Date().toLocaleTimeString()
+}
+callHistory.push(history)
+
+
+
+const newHistory = document.getElementById("call-history");
+
+
+    const div = document.createElement("div")
+    div.innerHTML = `
+        <div class="flex justify-between mt-4 bg-[#FAFAFA] p-5 items-center rounded-xl">
+                <div>
+                    <h1 class="font-bold">${history.name}</h1>
+                    <p>${history.Number}</p>
+                </div>
+                <p>${history.Date}</p>
+              </div>
+    `
+    newHistory.appendChild(div)
 
 })
 
@@ -253,5 +449,29 @@ document.getElementById("railway-call").addEventListener('click', function () {
 
 setInnerText2(totalCoin);
 
+
+const history ={
+    name:"Bangladesh Railway Helpline",
+    Number: 163,
+    Date:new Date().toLocaleTimeString()
+}
+callHistory.push(history)
+
+
+
+const newHistory = document.getElementById("call-history");
+
+
+    const div = document.createElement("div")
+    div.innerHTML = `
+        <div class="flex justify-between mt-4 bg-[#FAFAFA] p-5 items-center rounded-xl">
+                <div>
+                    <h1 class="font-bold">${history.name}</h1>
+                    <p>${history.Number}</p>
+                </div>
+                <p>${history.Date}</p>
+              </div>
+    `
+    newHistory.appendChild(div)
 
 })

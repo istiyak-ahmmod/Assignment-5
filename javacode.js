@@ -475,3 +475,11 @@ const newHistory = document.getElementById("call-history");
     newHistory.appendChild(div)
 
 })
+
+
+document.getElementById("clear-history").addEventListener('click',function (){
+     const newHistory = document.getElementById("call-history");
+    newHistory.innerHTML = " ";
+   
+    
+})
